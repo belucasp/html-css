@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 003</title>
+</head>
+<body>
+    <h1>imagem flexível</h1>
+    <p>Diminua a tela para que a imagem mude de tamanho conforme a tela muda seu tamanho</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="midia/paisagem-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="midia/paisagem-m.png" type="image/png">
+        <img src="midia/paisagem-g.png" alt="paisagem-g.png" >
+    </picture>
+
+</body>
+</html>
